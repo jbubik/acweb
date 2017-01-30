@@ -6,6 +6,6 @@ projects[acvyscz][type] = "profile"
 
 projects[acvyscz][download][type] = "git"
 
-projects[acvyscz][download][url] = "git@github.com:jbubik/acweb.git"
+projects[acvyscz][download][url] = "https://github.com/jbubik/acweb.git"
 
 projects[acvyscz][download][branch] = "master"
