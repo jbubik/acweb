@@ -1,2 +1,2 @@
 # acweb
-makefiles to create AC web
+makefiles to create AC webs
