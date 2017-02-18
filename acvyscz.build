@@ -1,11 +1,11 @@
-core = 7.x
 api = 2
+core = 7.x
 
-projects[] =  drupal
+projects[drupal][type] = core
+projects[drupal][version] = 7.39
+
 projects[acvyscz][type] = "profile"
+#projects[acvyscz][download][type] = "git"
+#projects[acvyscz][download][url] = "https://github.com/jbubik/acweb.git"
+#projects[acvyscz][download][branch] = "master"
 
-projects[acvyscz][download][type] = "git"
-
-projects[acvyscz][download][url] = "https://github.com/jbubik/acweb.git"
-
-projects[acvyscz][download][branch] = "master"
