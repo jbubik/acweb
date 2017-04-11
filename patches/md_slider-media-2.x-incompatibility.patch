@@ -1,0 +1,19 @@
+diff -c a/sites/all/modules/commercial/md_slider/includes/md_slider.utils.inc includes/md_slider.utils.inc
+--- a/sites/all/modules/commercial/md_slider/includes/md_slider.utils.inc
++++ includes/md_slider.utils.inc
+@@ -291,13 +291,8 @@ function _md_slider_include_media_browser_js() {
+   }
+   $included = TRUE;
+   module_load_include('inc', 'media', 'includes/media.browser');
+-  $javascript = media_browser_js();
+-  foreach ($javascript as $key => $definitions) {
+-    foreach ($definitions as $definition) {
+-      $function = 'drupal_add_' . $key;
+-      call_user_func_array($function, $definition);
+-    }
+-  }
++  drupal_add_library('media', 'media_browser');
++  drupal_add_library('media', 'media_browser_settings');
+   // Add wysiwyg-specific settings.
+   $settings = array('wysiwyg_allowed_attributes' => variable_get('media__wysiwyg_allowed_attributes', array('height', 'width', 'hspace', 'vspace', 'border', 'align', 'style', 'class', 'id', 'usemap', 'data-picture-group', 'data-picture-align')));
+   drupal_add_js(array('media' => $settings), 'setting');

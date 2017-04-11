@@ -1,0 +1,12 @@
+diff -r -u /var/aegir/platforms/drupal-7.31-porto1c/sites/all/modules/media_feeds/includes/MediaFeedsRemoteProvider.inc ./includes/MediaFeedsRemoteProvider.inc
+--- /var/aegir/platforms/drupal-7.31-porto1c/sites/all/modules/media_feeds/includes/MediaFeedsRemoteProvider.inc	2012-02-29 10:19:22.000000000 +0100
++++ ./includes/MediaFeedsRemoteProvider.inc	2014-10-02 00:10:06.000000000 +0200
+@@ -26,7 +26,7 @@
+     $file = new stdClass();
+     $file->fid = NULL;
+     $file->uri = $this->uri;
+-    $file->filename = basename($file->uri);
++    $file->filename = urldecode(basename($file->uri));
+     $file->filemime = file_get_mimetype($file->uri);
+     $file->uid = $GLOBALS['user']->uid;
+     $file->status = FILE_STATUS_PERMANENT;

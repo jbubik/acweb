@@ -1,0 +1,19 @@
+*** template.php	2014-04-01 07:21:28.000000000 +0200
+--- template.php	2015-09-13 22:36:36.000000000 +0200
+***************
+*** 247,253 ****
+   * Overrides theme_item_list().
+   */
+  function porto_item_list($vars) {
+!   if (isset($vars['attributes']['class']) && in_array('pager', $vars['attributes']['class'])) {
+      unset($vars['attributes']['class']);
+      foreach ($vars['items'] as $i => &$item) {
+        if (in_array('pager-current', $item['class'])) {
+--- 247,253 ----
+   * Overrides theme_item_list().
+   */
+  function porto_item_list($vars) {
+!   if (@isset($vars['attributes']['class']) && in_array('pager', $vars['attributes']['class'])) {
+      unset($vars['attributes']['class']);
+      foreach ($vars['items'] as $i => &$item) {
+        if (in_array('pager-current', $item['class'])) {

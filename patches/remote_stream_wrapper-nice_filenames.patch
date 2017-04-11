@@ -1,0 +1,12 @@
+diff -r -u /var/aegir/platforms/drupal-7.31-porto1c/sites/all/modules/remote_stream_wrapper/remote_stream_wrapper.module ./remote_stream_wrapper.module
+--- /var/aegir/platforms/drupal-7.31-porto1c/sites/all/modules/remote_stream_wrapper/remote_stream_wrapper.module	2014-09-22 06:17:38.000000000 +0200
++++ ./remote_stream_wrapper.module	2014-10-02 00:01:49.000000000 +0200
+@@ -187,7 +187,7 @@
+   $file = new stdClass();
+   $file->fid = NULL;
+   $file->uri = $uri;
+-  $file->filename = basename($file->uri);
++  $file->filename = urldecode(basename($file->uri));
+   $file->filemime = file_get_mimetype($file->uri);
+   $file->uid = $GLOBALS['user']->uid;
+   $file->status = FILE_STATUS_PERMANENT;
