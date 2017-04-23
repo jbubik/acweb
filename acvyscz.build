@@ -22,6 +22,7 @@ projects[Porto][version] = "1.3"
 projects[Porto][patch][0] = "patches/porto13-line250-index-missing-warning-suppression.patch"
 
 ; Modules
+projects[cors][version] = "1.3"
 projects[block_class][version] = "2.3"
 
 projects[block_class_styles][version] = "2.6"
