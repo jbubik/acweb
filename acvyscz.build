@@ -44,11 +44,11 @@ projects[date][version] = "2.10"
 
 projects[entity][version] = "1.8"
 
-projects[feeds][version] = "2.0-beta3"
+projects[feeds][version] = "2.0-beta4"
 
 projects[feeds_tamper][version] = "1.1"
 
-projects[file_entity][version] = "2.3"
+projects[file_entity][version] = "2.10"
 
 projects[getid3][version] = "2.0-beta3"
 
@@ -58,21 +58,21 @@ projects[jquery_colorpicker][version] = "1.3"
 
 projects[jquery_update][version] = "2.7"
 
-projects[l10n_update][version] = "2.1"
+projects[l10n_update][version] = "2.2"
 
 ;required version 3.0!!!
 projects[less][version] = "3.0"
 
 projects[libraries][version] = "2.3"
 
-projects[media][version] = "2.9"
+projects[media][version] = "2.12"
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"
 
 projects[media_vimeo][version] = "2.1"
 
-projects[media_youtube][version] = "3.4"
+projects[media_youtube][version] = "3.5"
 
 projects[mediafront][version] = "2.2"
 
@@ -90,7 +90,7 @@ projects[remote_stream_wrapper][version] = "1.0-rc1"
 projects[remote_stream_wrapper][patch][0] = "https://www.drupal.org/files/issues/remote_stream_wrapper-media_browser_submit-1557580-51.patch"
 projects[remote_stream_wrapper][patch][1] = "patches/remote_stream_wrapper-nice_filenames.patch"
 
-projects[security_review][version] = "1.2"
+projects[security_review][version] = "1.3"
 
 projects[site_map][version] = "1.3"
 
@@ -100,7 +100,7 @@ projects[token][version] = "1.7"
 
 projects[transliteration][version] = "3.2"
 
-projects[views][version] = "3.16"
+projects[views][version] = "3.18"
 
 projects[views_rss][version] = "2.0-rc4"
 
@@ -126,5 +126,6 @@ libraries[getid3][type] = "library"
 libraries[getid3][download][type] = "file"
 libraries[getid3][download][url] = "http://sourceforge.net/projects/getid3/files/latest/download?source=files"
 libraries[getid3][directory_name] = "getid3"
+
 
 
