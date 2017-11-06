@@ -1,0 +1,117 @@
+/*=======================================================================
+*** PORTO_SUB STYLE SHEET***
+========================================================================*/
+
+/* predefinuj font "Shadows Into Light" na "Shadows Into Light Two" vsude kvuli cestine */
+.slider-container .blackboard-text {
+        font-family: "Shadows Into Light Two",cursive;
+}
+.home-intro p em {
+        font-family: "Shadows Into Light Two", cursive;
+}
+.home-concept strong {
+        font-family: "Shadows Into Light Two", cursive;
+}
+#footer .footer-ribon span {
+        font-family: "Shadows Into Light Two", cursive;
+}
+.alternative-font {
+        font-family: "Shadows Into Light Two", cursive;
+}
+.thumb-info-ribbon span {
+        font-family: "Shadows Into Light Two", cursive;
+}
+
+
+/* uprava tabulek views - pruhovane a zarovnane na stred */
+div.view table.views-table tbody tr.even {
+        background-color: #fff;
+}
+div.view table.views-table tbody td {
+	vertical-align: middle;
+}
+
+
+/*node svedectvi*/
+div.node-sv-dectv- div.field-name-field-img-svedectvi {
+        float:left;
+        padding-right: 10px;
+        padding-bottom:10px
+}
+
+
+/*view svedectvi*/
+div.view-sv-dectvi-pohled h3 {
+        padding-top: 32px;
+        margin-bottom: 8px;
+        clear: both;
+}
+div.view-sv-dectvi-pohled div.views-field-field-img-svedectvi {
+        float:left;
+        padding-right: 10px;
+        padding-bottom:10px
+}
+
+
+/* view aktualni akce */
+div.view-akce-pohled td {
+        vertical-align: top;
+        text-align: center;
+}
+div.view-akce-pohled h3 {
+        margin: 0 10px 5px 10px;
+        line-height: 28px;
+}
+div.view-akce-pohled img {
+        display: inline;
+}
+
+
+/* --------- fotogalerie RAJCE --------- */
+div#rajce tr.rajce-albums-view-header {
+        display: none;
+}
+div#rajce td.rajce-album-photo a {
+        margin: 4px;
+        margin-bottom: 12px;
+}
+div#rajce div.rajce-album-description {
+        margin-bottom: 12px;
+}
+
+
+/* view kazani EBED */
+div.view-podcast-ebed caption {
+        font-size: 2em;
+        font-weight: 400;
+        margin-top: 16px;
+	text-align: center;
+}
+div.view-podcast-ebed td.views-field-field-speaker-photo {
+        width: 150px;
+}
+div.view-podcast-ebed td.views-field-field-speaker {
+        width: 40%;
+}
+
+/* node AUDIO */
+span.file img {
+	display: inline;
+}
+
+/* MD Slider */
+.md-objects .line110 {
+  line-height: 110%;
+}
+.md-objects .line130 {
+  line-height: 130%;
+}
+.md-objects .line150 {
+  line-height: 150%;
+}
+.md-objects .line180 {
+  line-height: 180%;
+}
+.md-objects .line200 {
+  line-height: 200%;
+}
