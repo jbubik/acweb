@@ -1,6 +1,6 @@
 ;
 ;
-;rsync --filter='- .htaccess' --filter='- sites/all/drush' --filter='+ sites/all/' --filter='- sites/*' -rv --delete [src] [dst]
+;rsync --filter='- .htaccess' --filter='- sites/all/drush' --filter='+ sites/all/' --filter='- sites/*' -rvc --delete [src] [dst]
 ;
 ;
 
@@ -14,20 +14,44 @@ projects[drupal][type] = "core"
 
 ; Modules
 projects[md_slider][download][type] = "file"
-projects[md_slider][download][full_version] = "2.19"
-projects[md_slider][download][url] = "file:///var/aegir/nonpublic/md_slider-2.19.tgz"
-projects[md_slider][version] = "2.19"
-;projects[md_slider][patch][0] = "patches/md_slider-media-2.x-incompatibility.patch"
+projects[md_slider][download][full_version] = "7.x-2.22"
+projects[md_slider][download][url] = "file:///var/aegir/nonpublic/md_slider-7.x-2.22.zip"
+projects[md_slider][download][subtree] = "md_slider"
+projects[md_slider][version] = "7.x-2.22"
+
+projects[porto_views][download][type] = "file"
+projects[porto_views][download][full_version] = "7.x-1.0"
+projects[porto_views][download][url] = "file:///var/aegir/nonpublic/porto_views-4.21.tgz"
+projects[porto_views][version] = "7.x-1.0"
 
 ; Themes
 projects[Porto][type] = "theme"
 projects[Porto][download][type] = "file"
-projects[Porto][download][full_version] = "1.3"
-projects[Porto][download][url] = "file:///var/aegir/nonpublic/Porto-1.3.tgz"
-projects[Porto][version] = "1.3"
-projects[Porto][patch][0] = "patches/porto13-line250-index-missing-warning-suppression.patch"
+projects[Porto][download][full_version] = "4.1"
+projects[Porto][download][url] = "file:///var/aegir/nonpublic/Porto-4.1.tgz"
+projects[Porto][version] = "4.1"
+
+projects[Porto_sub][type] = "theme"
+projects[Porto_sub][download][type] = "copy"
+projects[Porto_sub][download][url] = "file:///var/aegir/src/acweb/Porto_sub-4.1-ac"
 
 ; Modules
+
+;modules for Porto 4 demo site (unused here):
+;projects[addressfield][version] = "1.2"
+;projects[bean][version] = "1.11"
+;projects[context][version] = "3.7"
+;projects[fivestar][version] = "2.2"
+;projects[imce][version] = "1.11"
+;projects[module_filter][version] = "2.1"
+;projects[module_missing_message_fixer][version] = "1.5"
+;projects[panels][version] = "3.9"
+;projects[votingapi][version] = "2.12"
+
+;modules for acweb:
+projects[node_export][version] = "3.1"
+projects[uuid][version] = "1.0"
+
 projects[cors][version] = "1.3"
 
 projects[block_class][version] = "2.3"
@@ -48,7 +72,7 @@ projects[feeds][version] = "2.0-beta4"
 
 projects[feeds_tamper][version] = "1.1"
 
-projects[file_entity][version] = "2.10"
+projects[file_entity][version] = "2.12"
 
 projects[getid3][version] = "2.0-beta3"
 
@@ -60,12 +84,12 @@ projects[jquery_update][version] = "2.7"
 
 projects[l10n_update][version] = "2.2"
 
-;required version 3.0!!!
-projects[less][version] = "3.0"
+;required version 3.0 in Porto 1.3!!!
+projects[less][version] = "4.0"
 
 projects[libraries][version] = "2.3"
 
-projects[media][version] = "2.12"
+projects[media][version] = "2.13"
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"
@@ -116,11 +140,18 @@ libraries[colorpicker][download][type] = "file"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 libraries[colorpicker][directory_name] = "colorpicker"
 
-libraries[lessc.inc.php][type] = "library"
-libraries[lessc.inc.php][download][type] = "file"
-libraries[lessc.inc.php][download][url] = "http://leafo.net/lessphp/src/lessphp-0.4.0.tar.gz"
-libraries[lessc.inc.php][download][subtree] = "lessphp/lessc.inc.php"
-libraries[lessc.inc.php][destination] = "libraries/lessphp/"
+;for Drupal module less-3.0:
+;libraries[lessc.inc.php][type] = "library"
+;libraries[lessc.inc.php][download][type] = "file"
+;libraries[lessc.inc.php][download][url] = "http://leafo.net/lessphp/src/lessphp-0.4.0.tar.gz"
+;libraries[lessc.inc.php][download][subtree] = "lessphp/lessc.inc.php"
+;libraries[lessc.inc.php][destination] = "libraries/lessphp/"
+
+;for Drupal module less-4.0:
+libraries[Less.php][type] = "library"
+libraries[Less.php][download][type] = "file"
+libraries[Less.php][download][url] = "https://github.com/oyejorge/less.php/releases/download/v1.7.0.10/less.php_1.7.0.10.zip"
+libraries[Less.php][directory_name] = "less.php"
 
 libraries[getid3][type] = "library"
 libraries[getid3][download][type] = "file"
