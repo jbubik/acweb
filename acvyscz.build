@@ -70,7 +70,7 @@ projects[entity][version] = "1.8"
 
 projects[feeds][version] = "2.0-beta4"
 
-projects[feeds_tamper][version] = "1.1"
+projects[feeds_tamper][version] = "1.2"
 
 projects[file_entity][version] = "2.12"
 
@@ -89,14 +89,14 @@ projects[less][version] = "4.0"
 
 projects[libraries][version] = "2.3"
 
-projects[media][version] = "2.13"
+projects[media][version] = "2.14"
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"
 
 projects[media_vimeo][version] = "2.1"
 
-projects[media_youtube][version] = "3.5"
+projects[media_youtube][version] = "3.6"
 
 projects[mediafront][version] = "2.2"
 

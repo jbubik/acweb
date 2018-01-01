@@ -4,7 +4,7 @@
 
 /* predefinuj font "Shadows Into Light" na "Shadows Into Light Two" vsude kvuli cestine */
 .slider-container .blackboard-text {
-        font-family: "Shadows Into Light Two",cursive;
+        font-family: "Shadows Into Light Two", cursive;
 }
 .home-intro p em {
         font-family: "Shadows Into Light Two", cursive;
@@ -115,3 +115,9 @@ span.file img {
 .md-objects .line200 {
   line-height: 200%;
 }
+
+/* IKONY v hlavicce a paticce */
+.social-icons li:hover.social-icons-ac a {
+        background: #8c6f3f;
+}
+
