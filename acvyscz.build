@@ -14,10 +14,10 @@ projects[drupal][type] = "core"
 
 ; Modules
 projects[md_slider][download][type] = "file"
-projects[md_slider][download][full_version] = "7.x-2.22"
-projects[md_slider][download][url] = "file:///var/aegir/nonpublic/md_slider-7.x-2.22.zip"
+projects[md_slider][download][full_version] = "7.x-2.24"
+projects[md_slider][download][url] = "file:///var/aegir/nonpublic/md_slider-7.x-2.24.zip"
 projects[md_slider][download][subtree] = "md_slider"
-projects[md_slider][version] = "7.x-2.22"
+projects[md_slider][version] = "7.x-2.24"
 
 projects[porto_views][download][type] = "file"
 projects[porto_views][download][full_version] = "7.x-1.0"
@@ -58,7 +58,7 @@ projects[block_class][version] = "2.3"
 
 projects[block_class_styles][version] = "2.6"
 
-projects[ctools][version] = "1.12"
+projects[ctools][version] = "1.13"
 
 projects[ckeditor][version] = "1.18"
 
@@ -72,11 +72,11 @@ projects[feeds][version] = "2.0-beta4"
 
 projects[feeds_tamper][version] = "1.2"
 
-projects[file_entity][version] = "2.12"
+projects[file_entity][version] = "2.16"
 
 projects[getid3][version] = "2.0-beta3"
 
-projects[job_scheduler][version] = "2.0-alpha3"
+projects[job_scheduler][version] = "2.0"
 
 projects[jquery_colorpicker][version] = "1.3"
 
@@ -89,7 +89,7 @@ projects[less][version] = "4.0"
 
 projects[libraries][version] = "2.3"
 
-projects[media][version] = "2.14"
+projects[media][version] = "2.16"
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"

@@ -6,6 +6,9 @@
 if (isset($_SERVER['HTTP_REFERER']) && (strtolower(substr($_SERVER['HTTP_REFERER'],0,29))=="http://acbucovice.webnode.cz/")) {
    drupal_add_http_header('X-Frame-Options',"http://acbucovice.webnode.cz/");
 };
+if (isset($_SERVER['HTTP_REFERER']) && (strtolower(substr($_SERVER['HTTP_REFERER'],0,30))=="https://acbucovice.webnode.cz/")) {
+   drupal_add_http_header('X-Frame-Options',"https://acbucovice.webnode.cz/");
+};
 ?>
 
 <div class="body">
