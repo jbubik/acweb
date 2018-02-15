@@ -66,7 +66,7 @@ projects[contact_form_blocks][version] = "1.x-dev"
 
 projects[date][version] = "2.10"
 
-projects[entity][version] = "1.8"
+projects[entity][version] = "1.9"
 
 projects[feeds][version] = "2.0-beta4"
 
