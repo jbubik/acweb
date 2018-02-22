@@ -9,7 +9,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.56"
+projects[drupal][version] = "7.57"
 projects[drupal][type] = "core"
 
 ; Modules
@@ -96,7 +96,7 @@ projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"
 
 projects[media_vimeo][version] = "2.1"
 
-projects[media_youtube][version] = "3.6"
+projects[media_youtube][version] = "3.7"
 
 projects[mediafront][version] = "2.2"
 
