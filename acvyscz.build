@@ -9,7 +9,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.58"
+projects[drupal][version] = "7.59"
 projects[drupal][type] = "core"
 
 ; Modules
@@ -72,7 +72,7 @@ projects[feeds][version] = "2.0-beta4"
 
 projects[feeds_tamper][version] = "1.2"
 
-projects[file_entity][version] = "2.17"
+projects[file_entity][version] = "2.20"
 
 projects[getid3][version] = "2.0-beta3"
 
@@ -89,7 +89,7 @@ projects[less][version] = "4.0"
 
 projects[libraries][version] = "2.3"
 
-projects[media][version] = "2.16"
+projects[media][version] = "2.19"
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"
@@ -124,7 +124,7 @@ projects[token][version] = "1.7"
 
 projects[transliteration][version] = "3.2"
 
-projects[views][version] = "3.18"
+projects[views][version] = "3.20"
 
 projects[views_rss][version] = "2.0-rc4"
 
