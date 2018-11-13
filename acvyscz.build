@@ -9,15 +9,15 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.60"
+projects[drupal][version] = "7.61"
 projects[drupal][type] = "core"
 
 ; Modules
 projects[md_slider][download][type] = "file"
-projects[md_slider][download][full_version] = "7.x-2.24"
-projects[md_slider][download][url] = "file:///var/aegir/nonpublic/md_slider-7.x-2.24.zip"
-projects[md_slider][download][subtree] = "md_slider"
-projects[md_slider][version] = "7.x-2.24"
+projects[md_slider][download][full_version] = "7.x-2.25"
+projects[md_slider][download][url] = "file:///var/aegir/nonpublic/md_slider-7.x-2.25.zip"
+#projects[md_slider][download][subtree] = "md_slider"
+projects[md_slider][version] = "7.x-2.25"
 
 projects[porto_views][download][type] = "file"
 projects[porto_views][download][full_version] = "7.x-1.0"
@@ -72,7 +72,7 @@ projects[feeds][version] = "2.0-beta4"
 
 projects[feeds_tamper][version] = "1.2"
 
-projects[file_entity][version] = "2.22"
+projects[file_entity][version] = "2.25"
 
 projects[getid3][version] = "2.0-beta3"
 
