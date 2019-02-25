@@ -9,7 +9,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.61"
+projects[drupal][version] = "7.64"
 projects[drupal][type] = "core"
 
 ; Modules
@@ -49,6 +49,8 @@ projects[Porto_sub][download][url] = "file:///var/aegir/src/acweb/Porto_sub-4.1-
 ;projects[votingapi][version] = "2.12"
 
 ;modules for acweb:
+projects[captcha][version] = "1.5"
+
 projects[node_export][version] = "3.1"
 projects[uuid][version] = "1.2"
 
@@ -58,7 +60,7 @@ projects[block_class][version] = "2.4"
 
 projects[block_class_styles][version] = "2.6"
 
-projects[ctools][version] = "1.14"
+projects[ctools][version] = "1.15"
 
 projects[ckeditor][version] = "1.18"
 
@@ -96,13 +98,13 @@ projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"
 
 projects[media_vimeo][version] = "2.1"
 
-projects[media_youtube][version] = "3.7"
+projects[media_youtube][version] = "3.8"
 
 projects[mediafront][version] = "2.2"
 
 projects[menu_block][version] = "2.8"
 
-projects[nodeaccess][version] = "1.4"
+projects[nodeaccess][version] = "1.6"
 
 projects[pathauto][version] = "1.3"
 

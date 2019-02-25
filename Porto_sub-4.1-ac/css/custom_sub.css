@@ -121,3 +121,14 @@ span.file img {
         background: #8c6f3f;
 }
 
+/* Drupal captcha je jiny nez PORTO-captcha */
+fieldset.captcha.form-wrapper {
+	clear: inherit;
+	overflow: inherit;
+	background: inherit;
+	text-align: inherit;
+	margin-bottom: inherit;
+	max-width: inherit;
+	height: inherit;
+	position: inherit;	
+}

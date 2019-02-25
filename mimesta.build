@@ -9,14 +9,16 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.61"
+projects[drupal][version] = "7.64"
 projects[drupal][type] = "core"
 
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
 
-projects[ctools][version] = "1.14"
+projects[captcha][version] = "1.5"
+
+projects[ctools][version] = "1.15"
 
 projects[calendar][version] = "3.5"
 
