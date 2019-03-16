@@ -75,7 +75,7 @@ projects[token][version] = "1.7"
 
 projects[transliteration][version] = "3.2"
 
-projects[views][version] = "3.20"
+projects[views][version] = "3.21"
 
 ; obsahuje MAKE pro jquery.cycle a json2
 projects[views_slideshow][version] = "3.9"

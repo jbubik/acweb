@@ -126,7 +126,7 @@ projects[token][version] = "1.7"
 
 projects[transliteration][version] = "3.2"
 
-projects[views][version] = "3.20"
+projects[views][version] = "3.21"
 
 projects[views_rss][version] = "2.0-rc4"
 
@@ -135,6 +135,8 @@ projects[views_rss_itunes][version] = "1.0-rc2"
 projects[admin_menu][version] = "3.0-rc6"
 
 projects[features][version] = "2.10"
+
+projects[hybridauth][version] = "2.16"
 
 ; Libraries
 libraries[colorpicker][type] = "library"

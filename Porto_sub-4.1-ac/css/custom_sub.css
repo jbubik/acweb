@@ -132,3 +132,22 @@ fieldset.captcha.form-wrapper {
 	height: inherit;
 	position: inherit;	
 }
+
+/* HybridAuth FB&Google login */
+div.hybridauth-widget-wrapper {
+	margin-top: 24px;
+}
+div.hybridauth-widget-wrapper h3 {
+	font-size: 21px;
+	line-height: 22px;
+	text-transform: none;
+	margin: 0px;
+	color: rgb(119, 119, 119);
+}
+div.hybridauth-widget-wrapper ul {
+	float: left !important;
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 32px;
+}
+
