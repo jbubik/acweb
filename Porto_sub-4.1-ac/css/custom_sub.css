@@ -98,6 +98,10 @@ div.view-podcast-ebed td.views-field-field-speaker {
 span.file img {
 	display: inline;
 }
+div#mediafront_audioplayer {
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
 
 /* MD Slider */
 .md-objects .line110 {
