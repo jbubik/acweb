@@ -5,7 +5,7 @@ diff -r -u /var/aegir/platforms/drupal-7.31-porto1c/sites/all/modules/remote_str
   * Validation callback for remote URLs.
   */
  function remote_stream_wrapper_validate_url($element, &$form_state) {
--  $value = $element['#value'];
+-  $value = trim($element['#value']);
 +  $value = $element['#value'] = str_replace(" ","%20",trim($element['#value']));
    if ($value != '' && !valid_url($value, TRUE)) {
      form_error($element, t('Invalid URL %url.', array('%url' => $value)));
