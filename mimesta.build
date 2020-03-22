@@ -16,13 +16,13 @@ projects[drupal][type] = "core"
 ; Modules
 projects[admin_menu][version] = "3.0-rc6"
 
-projects[captcha][version] = "1.6"
+projects[captcha][version] = "1.7"
 
 projects[ctools][version] = "1.15"
 
 projects[calendar][version] = "3.5"
 
-projects[ckeditor][version] = "1.18"
+projects[ckeditor][version] = "1.19"
 
 projects[ckeditor_link][version] = "2.4"
 
@@ -75,7 +75,7 @@ projects[token][version] = "1.7"
 
 projects[transliteration][version] = "3.2"
 
-projects[views][version] = "3.23"
+projects[views][version] = "3.24"
 
 ; obsahuje MAKE pro jquery.cycle a json2
 projects[views_slideshow][version] = "3.9"
