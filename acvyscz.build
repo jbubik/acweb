@@ -91,7 +91,7 @@ projects[less][version] = "4.0"
 
 projects[libraries][version] = "2.5"
 
-projects[media][version] = "2.24"
+projects[media][version] = "2.26"
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"

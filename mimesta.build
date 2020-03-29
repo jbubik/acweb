@@ -59,7 +59,7 @@ projects[l10n_update][version] = "2.3"
 
 projects[libraries][version] = "2.5"
 
-projects[media][version] = "2.24"
+projects[media][version] = "2.26"
 
 projects[media_feeds][version] = "2.0-alpha1"
 
