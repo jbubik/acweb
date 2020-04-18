@@ -101,17 +101,32 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
-      print render($content);
-
+      print render($content['field_speaker']);
+      print render($content['field_date_recorded']);
+      print render($content['field_audio_taxonomy']);
+      if (($tmp1=render($content['field_audio_file']))!="") {
+        print '<div class="mt-xl mb-sm heading heading-border heading-middle-border heading-middle-border-center">';
+        print '<h4>Audio záznam</h4>';
+        print '</div>';
+        print $tmp1;
+      };
+      print render($content['body']);
+      $tmpATT=render($content['field_attachment_file']);
       //renderuj MP3 soubor jeste jednou jako prilohu
-      print render($tmp4=field_view_field($tmp1='node', $node, $tmp2='field_audio_file',
+      $tmpAUD=render($tmp4=field_view_field($tmp1='node', $node, $tmp2='field_audio_file',
          $tmp3=array('label'=>'hidden','type'=>'file_default')));
-
+      if (($tmpATT!="")||($tmpAUD!="")) {
+        print '<div class="mt-xl mb-sm heading heading-border heading-middle-border heading-middle-border-center">';
+        print '<h4>Soubory ke stažení</h4>';
+        print '</div>';
+        print $tmpAUD;
+        print $tmpATT;
+      };
     ?>
   </div>
 
-  <?php print render($content['links']); ?>
+  <?php //print render($content['links']); ?>
 
-  <?php print render($content['comments']); ?>
+  <?php //print render($content['comments']); ?>
 
 </div>
