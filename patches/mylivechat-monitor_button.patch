@@ -1,0 +1,29 @@
+diff -cr ./mylivechat.admin.inc /home/spolecne/weby/wedos-ftp/www/ssldomains/minimestecka.ac.vys.cz/sites/all/modules/mylivechat/mylivechat.admin.inc
+*** ./mylivechat.admin.inc	2013-09-05 17:03:22.000000000 +0200
+--- /home/spolecne/weby/wedos-ftp/www/ssldomains/minimestecka.ac.vys.cz/sites/all/modules/mylivechat/mylivechat.admin.inc	2020-05-02 23:56:00.000000000 +0200
+***************
+*** 128,133 ****
+--- 128,134 ----
+  		'#title' => t('Display Type'),
+  		'#options' => Array(
+  		       'inline' => 'Inline Chat',
++ 		       'monitor' => 'Monitor Only',
+  		       'button' => 'Chat Button',
+  		       'box' => 'Chat Box',
+  		       'link' => 'Chat Text Link',
+diff -cr ./mylivechat.php /home/spolecne/weby/wedos-ftp/www/ssldomains/minimestecka.ac.vys.cz/sites/all/modules/mylivechat/mylivechat.php
+*** ./mylivechat.php	2017-12-08 01:31:00.000000000 +0100
+--- /home/spolecne/weby/wedos-ftp/www/ssldomains/minimestecka.ac.vys.cz/sites/all/modules/mylivechat/mylivechat.php	2020-05-02 23:59:00.000000000 +0200
+***************
+*** 150,155 ****
+--- 150,159 ----
+  	{
+  		$chat_button .= "<script type=\"text/javascript\">function add_chatinline(){var hccid=".$mylivechat_id.";var nt=document.createElement(\"script\");nt.async=true;nt.src=\"https://mylivechat.com/chatinline.aspx?hccid=\"+hccid;var ct=document.getElementsByTagName(\"script\")[0];ct.parentNode.insertBefore(nt,ct);}add_chatinline();</script>";
+  	}
++ 	else if($mylivechat_displaytype=="monitor")
++ 	{
++ 		$chat_button .= "<script type=\"text/javascript\">function add_chatapi(){var hccid=".$mylivechat_id.";var nt=document.createElement(\"script\");nt.async=true;nt.src=\"https://mylivechat.com/chatapi.aspx?hccid=\"+hccid;var ct=document.getElementsByTagName(\"script\")[0];ct.parentNode.insertBefore(nt,ct);}add_chatapi();</script>";
++ 	}
+  	else if($mylivechat_displaytype=="button")
+  	{
+  		$chat_button .= "<div id=\"MyLiveChatContainer\"></div><script type=\"text/javascript\">function add_chatbutton(){var hccid=".$mylivechat_id.";var nt=document.createElement(\"script\");nt.async=true;nt.src=\"https://mylivechat.com/chatbutton.aspx?hccid=\"+hccid;var ct=document.getElementsByTagName(\"script\")[0];ct.parentNode.insertBefore(nt,ct);}add_chatbutton();</script>";

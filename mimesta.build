@@ -9,7 +9,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.69"
+projects[drupal][version] = "7.73"
 projects[drupal][type] = "core"
 
 
@@ -26,7 +26,7 @@ projects[ckeditor][version] = "1.19"
 
 projects[ckeditor_link][version] = "2.4"
 
-projects[content_access][version] = "1.2-beta2"
+projects[content_access][version] = "1.2-beta3"
 
 projects[date][version] = "2.10"
 
@@ -37,15 +37,15 @@ projects[db_maintenance][version] = "1.3"
 
 projects[entity][version] = "1.9"
 
-projects[extlink][version] = "1.20"
+projects[extlink][version] = "1.21"
 
-projects[feeds][version] = "2.0-beta4"
+projects[feeds][version] = "2.0-beta5"
 
-projects[feeds_ex][version] = "1.0-beta2"
+projects[feeds_ex][version] = "1.0-rc1"
 
 projects[feeds_tamper][version] = "1.2"
 
-projects[file_entity][version] = "2.27"
+projects[file_entity][version] = "2.30"
 
 projects[flexslider][version] = "2.0-rc2"
 
@@ -55,13 +55,23 @@ projects[job_scheduler][version] = "2.0"
 
 projects[jquery_update][version] = "3.0-alpha5"
 
-projects[l10n_update][version] = "2.3"
+projects[l10n_update][version] = "2.4"
 
 projects[libraries][version] = "2.5"
+
+projects[matomo][version] = "2.12"
 
 projects[media][version] = "2.26"
 
 projects[media_feeds][version] = "2.0-alpha1"
+
+projects[mylivechat][download][type] = "file"
+projects[mylivechat][download][full_version] = "7.x-2.0"
+projects[mylivechat][download][url] = "https://www.mylivechat.com/download/drupal_mylivechat_7.x.zip"
+projects[mylivechat][version] = "2.0"
+projects[mylivechat][patch][0] = "patches/mylivechat-monitor_button.patch"
+
+projects[mylivechat][version] = "2.0"
 
 projects[pathauto][version] = "1.3"
 
@@ -78,7 +88,7 @@ projects[transliteration][version] = "3.2"
 projects[views][version] = "3.24"
 
 ; obsahuje MAKE pro jquery.cycle a json2
-projects[views_slideshow][version] = "3.9"
+projects[views_slideshow][version] = "3.10"
 
 
 
