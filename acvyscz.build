@@ -9,7 +9,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.76"
+projects[drupal][version] = "7.80"
 projects[drupal][type] = "core"
 
 ; Modules
@@ -69,13 +69,13 @@ projects[block_class][version] = "2.4"
 
 projects[block_class_styles][version] = "2.6"
 
-projects[ctools][version] = "1.17"
+projects[ctools][version] = "1.19"
 
 projects[ckeditor][version] = "1.19"
 
 projects[contact_form_blocks][version] = "1.x-dev"
 
-projects[date][version] = "2.10"
+projects[date][version] = "2.11"
 
 projects[entity][version] = "1.9"
 
@@ -100,14 +100,14 @@ projects[less][version] = "4.0"
 
 projects[libraries][version] = "2.5"
 
-projects[media][version] = "2.26"
+projects[media][version] = "2.27"
 
 projects[media_feeds][version] = "2.0-alpha1"
 projects[media_feeds][patch][0] = "patches/media_feeds-nice_filenames.patch"
 
 projects[media_vimeo][version] = "2.1"
 
-projects[media_youtube][version] = "3.9"
+projects[media_youtube][version] = "3.10"
 
 projects[mediafront][version] = "2.2"
 
@@ -119,7 +119,7 @@ projects[pathauto][version] = "1.3"
 
 projects[profile2][version] = "1.7"
 
-projects[redirect][version] = "1.0-rc3"
+projects[redirect][version] = "1.0-rc4"
 
 projects[remote_stream_wrapper][version] = "1.0"
 ;issue 1557580 only affects Media 7.x-1.x
@@ -133,7 +133,7 @@ projects[site_map][version] = "1.3"
 
 projects[taxonomy_access][version] = "1.0"
 
-projects[token][version] = "1.7"
+projects[token][version] = "1.8"
 
 projects[transliteration][version] = "3.2"
 
