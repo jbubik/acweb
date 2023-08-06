@@ -49,7 +49,7 @@ projects[Porto_sub][download][url] = "file:///var/aegir/src/acweb/Porto_sub-4.1-
 ;projects[votingapi][version] = "2.12"
 
 ;2020 additionals
-projects[matomo][version] = "2.14"
+projects[matomo][version] = "2.15"
 
 projects[mylivechat][download][type] = "file"
 projects[mylivechat][download][full_version] = "7.x-2.0"

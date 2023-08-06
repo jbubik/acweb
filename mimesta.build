@@ -59,7 +59,7 @@ projects[l10n_update][version] = "2.7"
 
 projects[libraries][version] = "2.5"
 
-projects[matomo][version] = "2.14"
+projects[matomo][version] = "2.15"
 
 projects[media][version] = "2.30"
 
