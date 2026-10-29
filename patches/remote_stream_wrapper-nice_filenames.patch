@@ -13,8 +13,9 @@ diff -r -u /var/aegir/platforms/drupal-7.31-porto1c/sites/all/modules/remote_str
 @@ -187,7 +187,7 @@
    $file = new stdClass();
    $file->fid = NULL;
-   $file->uri = $uri;
+-  $file->uri = $uri;
 -  $file->filename = basename($file->uri);
++  $file->uri = str_replace(" ","%20",trim($uri));
 +  $file->filename = urldecode(basename($file->uri));
    $file->filemime = file_get_mimetype($file->uri);
    $file->uid = $GLOBALS['user']->uid;

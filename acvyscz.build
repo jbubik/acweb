@@ -1,4 +1,11 @@
 ;
+;  make platform:
+;
+;cd ~/platforms/;drush make ~/src/acweb/acvyscz.build acvyscz-261028;cd acvyscz-261028/sites/all/libraries/hybridauth/;/usr/local/bin/composer install;cd ~/platforms/; grep ^ `find acvyscz-261028/ -name PATCHES.txt`
+;
+;  add platform to Aegir / move sites to new platform / test sites
+;
+;  deploy to webhosting:
 ;
 ;rsync --filter='- .htaccess' --filter='- sites/all/drush' --filter='+ sites/all/' --filter='- sites/*' -rvc --delete [src] [dst]
 ;
@@ -9,7 +16,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.98"
+projects[drupal][version] = "7.103"
 projects[drupal][type] = "core"
 
 ; Modules
@@ -83,7 +90,7 @@ projects[feeds][version] = "2.0-beta6"
 
 projects[feeds_tamper][version] = "1.2"
 
-projects[file_entity][version] = "2.37"
+projects[file_entity][version] = "2.40"
 
 projects[getid3][version] = "2.0-beta3"
 
@@ -137,7 +144,7 @@ projects[token][version] = "1.9"
 
 projects[transliteration][version] = "3.2"
 
-projects[views][version] = "3.29"
+projects[views][version] = "3.30"
 
 projects[views_rss][version] = "2.0-rc4"
 
